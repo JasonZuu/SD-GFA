@@ -12,7 +12,7 @@ from run_fn.generate import genenerate_fn
 def get_args():
     # Parse command-line arguments
     parser = argparse.ArgumentParser(description="Generate images using SDGFA model.")
-    parser.add_argument("--weights_path", type=str, default='log/sdgfa/sdgfa.pth', help="Path to the SDGFA model weights.")
+    parser.add_argument("--weights_path", type=str, required=True, help="Path to the SDGFA model weights.")
     parser.add_argument("--log_dir", type=str, default="log/sdgfa_gen", help="Directory to save generated images.")
     parser.add_argument("--batch_size", type=int, default=2, help="Batch size for generation.")
     parser.add_argument("--device", type=str, default="cuda", help="Device to use for generation (e.g., 'cuda', 'cpu').")

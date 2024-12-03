@@ -13,9 +13,9 @@ from utils.misc import set_seed, load_gt_stylef_dist
 def get_args():
     parser = argparse.ArgumentParser(description='Train the SD-GFA on CelebA-HQ dataset',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('--entity', type=str, default="mingchengzhu250",
+    parser.add_argument('--entity', type=str, default="<YourWandbUsername>",
                         help='wandb entity')
-    parser.add_argument('--project', type=str, default="FaceAnonymization",
+    parser.add_argument('--project', type=str, default="StyleDiverseGFA",
                         help='wandb project name')
     parser.add_argument('--device', type=str, default="cuda" if torch.cuda.is_available() else "cpu",
                         help='device to use for training')
