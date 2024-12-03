@@ -7,13 +7,11 @@
 
 ### Installation
 Follow these simple steps to install and set up this project:
-1. **Clone the Repository**  
-  Clone this repository to your local machine using the following command:
+1. **Clone the Repository**: Clone this repository to your local machine using the following command:
   ```bash
   git clone https://github.com/JasonZuu/SD-GFA-2024.git
   ```
-2. **Set Up the Python Environment**
-  To prevent conflicts with your system’s Python installation, it is highly recommended to use a virtual environment. You can create one easily with [Anaconda](https://www.anaconda.com/). 
+2. **Set Up the Python Environment**: To prevent conflicts with your system’s Python installation, it is highly recommended to use a virtual environment. You can create one easily with [Anaconda](https://www.anaconda.com/). 
   This project was developed and tested with Python 3.8, which is recommended for reproducing the results. Set up your environment with the following steps:
   ```bash
   conda create -n sdgfa python=3.8
@@ -30,12 +28,12 @@ Data download link: [https://www.kaggle.com/datasets/mingchengzhu/stylediversegf
 
 The expected project structure after organizing the data should look like this:
 
-->SD-GFA-2024(dir)
---> data(dir)
----> celeba-256(dir)
----> celebahq_256_train.csv
----> celebahq_256_val.csv
----> celebahq_256_test.csv
+->SD-GFA-2024(dir)  
+--> data(dir)  
+---> celeba-256(dir)  
+---> celebahq_256_train.csv  
+---> celebahq_256_val.csv  
+---> celebahq_256_test.csv  
 
 ### Training
 You can train the SD-GFA model by running the `train.py` file directly or by using the following command, which utilizes the default configurations and hyperparameters:
@@ -62,8 +60,6 @@ Here are some examples generated using the above command:
   <img src="img/out_0.png" alt="Generation1" width="45%">
   <img src="img/out_1.png" alt="Generation2" width="45%">
 </p>
-
-
 
 ## Acknowledges
 Codes from these brilliant repositories are used: 
