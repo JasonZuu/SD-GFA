@@ -1,0 +1,10 @@
+.idea
+data
+__pycache__
+log
+wandb
+sdgfa_data
+
+*.npy
+.DS_Store
+.ipynb_checkpoints
