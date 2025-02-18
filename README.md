@@ -1,6 +1,6 @@
 # Source Codes for *Against linkage: A novel generative face anonymization framework with style diversification*
 
-[StyleDiverse-GFA](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ipr2.13237) is an advanced framework designed to generate virtual faces with diverse identities and exceptional visual quality, effectively mitigating potential linkage attacks. By diversifying the feature distribution in the latent space and leveraging the power of self-supervised face generation, SD-GFA produces highly realistic virtual faces. 
+StyleDiverse-GFA [[paper](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ipr2.13237)] is an advanced framework designed to generate virtual faces with diverse identities and exceptional visual quality, effectively mitigating potential linkage attacks. By diversifying the feature distribution in the latent space and leveraging the power of self-supervised face generation, SD-GFA produces highly realistic virtual faces. 
 
 ![SD-GFA Illustration](img/ipr213237-fig-0001-m.jpg)
 ## Usage
